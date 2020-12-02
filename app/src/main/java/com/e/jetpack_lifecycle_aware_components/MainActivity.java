@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         getLifecycle().addObserver(new MainActivityObserver());
-        Toast.makeText(this, "The app has resumed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "The App has resumed", Toast.LENGTH_SHORT).show();
     }
 
 }
